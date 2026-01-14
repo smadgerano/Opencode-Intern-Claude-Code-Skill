@@ -6,7 +6,7 @@ OpenCode can read `AGENTS.md` in the same manner Claude Code does, so you can se
 
 An added benefit of this setup is OpenCode automatically uses skills in the `.claude/skills` directory so there's no need for duplicating files, and both agents can share the same working space and methodologies.
 
-To avoid nested callbacks that Claude looses sight of, make sure to deny permission to the `OpenCode-intern` skill.
+To avoid nested callbacks that Claude looses sight of, make sure to deny permission to the `OpenCode-intern` skill in the OpenCode config.
 
 For more portability and less token use, you could transpose a basic prompt in to the `OpenCode.json` file directly rather than point to a markdown file. 
 
