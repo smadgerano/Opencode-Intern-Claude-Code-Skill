@@ -1,6 +1,6 @@
 # OpenCode Intern Skill
 
-A Claude Code skill that delegates coding tasks to an OpenCode "intern" agent via the  [ACP (Agent Communication Protocol)](https://agentclientprotocol.com/overview/introduction). This enables Claude Code to offload tasks to a secondary AI agent running in [OpenCode](https://OpenCode.ai/docs/acp/).
+A Claude Code skill that delegates tasks to an OpenCode "intern" agent via  [ACP (Agent Communication Protocol)](https://agentclientprotocol.com/overview/introduction). This enables Claude Code to offload tasks to a secondary AI agent running in [OpenCode](https://OpenCode.ai/docs/acp/) using any model you like.
 
 OpenCode can read `AGENTS.md` in the same manner Claude Code does, so you can seamlessly share project context between both systems. You could even point the [OpenCode Rules](https://OpenCode.ai/docs/rules/) to the `CLAUDE.md` file 
 
